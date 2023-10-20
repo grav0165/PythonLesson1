@@ -28,7 +28,11 @@
 # print(age)
 
 # calculator 
-num1 = input("First: ")
-num2 = input("Second: ")
-answer = float(num1) + float(num2)
-print("Sum: " + str(answer))
+# num1 = input("First: ")
+# num2 = input("Second: ")
+# answer = float(num1) + float(num2)
+# print("Sum: " + str(answer))
+
+course = "Python for Beginners"
+# .find method will find the index of the first 'y'
+print(course.find('y'))
