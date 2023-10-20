@@ -23,6 +23,12 @@
 # name = input("What is your name? ")
 # print("Hello, " +  name + " how are you today?")
 
-birth_year = input("enter your birth year: ")
-age = 2023 - int(birth_year)
-print(age)
+# birth_year = input("enter your birth year: ")
+# age = 2023 - int(birth_year)
+# print(age)
+
+# calculator 
+num1 = input("First: ")
+num2 = input("Second: ")
+answer = float(num1) + float(num2)
+print("Sum: " + str(answer))
