@@ -35,4 +35,10 @@
 
 course = "Python for Beginners"
 # .find method will find the index of the first 'y'
-print(course.find('y'))
+print(course.find('for'))
+# String method to replace
+print(course.replace('for', '4'))
+#will not find
+print(course.replace('x', '5'))
+# searches for string in variable, returning bool
+print('Python' in course)
